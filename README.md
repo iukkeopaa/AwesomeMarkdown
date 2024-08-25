@@ -77,6 +77,97 @@
 #### 代码块或者文本块
 形式：
 
+
+
+#### 折叠
+
+折叠有着特殊的表达形式，如下面所示
+
+形式1:
+
+```
+<details>
+<summary>WEB开发</summary>
+
+##### 服务器
+xxxx
+
+##### 中间件
+xxxx
+
+##### 数据库
+xxxx
+
+</details>
+```
+
+效果；
+
+<details>
+<summary>WEB开发</summary>
+
+##### 服务器
+xxxx
+
+##### 中间件
+xxxx
+
+##### 数据库
+xxxx
+
+</details>
+
+
+形式2:
+
+```
+<details>
+<summary>WEB开发</summary>
+
+##### 服务器
+xxxx
+
+##### 中间件
+xxxx
+
+<details>
+<summary>数据库</summary>
+
+##### mmysql
+
+##### mongodb
+
+##### redis
+
+</details>
+```
+
+效果:
+
+<details>
+<summary>WEB开发</summary>
+
+##### 服务器
+xxxx
+
+##### 中间件
+xxxx
+
+<details>
+<summary>数据库</summary>
+
+##### mmysql
+
+##### mongodb
+
+##### redis
+
+</details>
+
+
+
+
+
 #### diff语法
 语法简述：
 ```
@@ -117,15 +208,6 @@ return ""
 }
 ```
   
-
-
-
-
-
-
-
-
-
 #### 表情
 
 形式:
@@ -134,7 +216,8 @@ return ""
 ```
 
 效果：
-:smile：
+
+😄
 
 拓展1：emoji表情的适当合理的使用能很好的增加可阅读性和阅读的趣味性，所以emoji表情的使用也越来越普遍，这里我简单列举几个emoji表情的网站以供参考
 
