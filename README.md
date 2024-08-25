@@ -397,10 +397,6 @@ _ _ _
 \vdots\quad \ddots \$$
 >
 
-#### 嵌入视频
-
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=647631019&bvid=BV1Ve4y1s7Qs&cid=894088883&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
 #### 复选框
 
 语法简述：
