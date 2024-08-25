@@ -331,6 +331,52 @@ ___
 _ _ _
 
 
+#### 数学公式
+
+这里的数学公式的语法符合`latex`的数学公式的语法
+
+`特殊字符`
+
+> $$alpha$$
+>
+> $$beta$$
+>
+> $$gamma$$
+>
+> $$eta$$
+>
+> $$theta$$
+>
+
+`数学计算`
+
+> $$\sqrt{x}\quad$$
+>
+> $$\ x_{ij }^2\quad$$
+>
+> $$ \frac{1}{2}$$
+>
+> $$\dfrac {1}{2}$$
+>
+> $$ \pm\; \times\; \div\; \cdot\; \cap\; \cup\;
+\geq\; \leq\; \neq\; \approx\; \equiv \$$
+>
+> $$\sum\nolimits_{i=1}^n i\quad
+8 \prod\nolimits_{i=1}^n\quad
+\lim\nolimits_{x\to0}x^2\quad
+10 \int\nolimits_a^b x^2 dx \$$
+>
+> $$\sum_{i=1}^n i\quad \prod_{i=1}^n\quad
+2 \lim_{x\to0}x^2\quad \int_a^b x^2 dx$$
+>
+> $$\bar{x} \vec{x} \hat{x} \tilde{x}$$
+>
+> $$ x_1,x_2,\dots ,x_n\quad 1,2,\cdots ,n\quad
+\vdots\quad \ddots \$$
+>
+
+
+
 #### 复选框
 
 语法简述：
