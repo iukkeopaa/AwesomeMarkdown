@@ -433,14 +433,14 @@ markdown中的链接主要分为**行内式**和**参考式**
 
 ```
 |---|----|:---:|
-|1|`[![github-avatar]](/pic/figure/oha.jepg)`|[![github-avatar]](/pic/figure/oha.jepg)|
+|1|`[![github-avatar]](pic/figure/oha.jpeg)`|[![github-avatar]](pic/figure/oha.jpeg)|
 
 ```
 
 效果：
 
 |---|----|:---:|
-|1|`[![github-avatar]](/pic/figure/oha.jepg)`|[![github-avatar]](/pic/figure/oha.jepg)|
+|1|`[![github-avatar]](pic/figure/oha.jpeg)`|[![github-avatar]](pic/figure/oha.jpeg)|
 
 #### 表格
 
