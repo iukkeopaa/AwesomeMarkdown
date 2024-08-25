@@ -167,8 +167,19 @@ markdown提供了`6个`不同的标题级别，这里的标题级别的不同主
 **注意** 下面三个用法好像`github`用不了，但是语法还是存在的，在其他的软件还是可以使用的,如`网易云笔记`就支持。
 ！[wy云笔记](pic/figure/截图.png)
 
+<div align="center">
+    <img src="pic/figure/截图.png" alt="图片描述" width="500" />
+</div>
+
 
 **贴士** 这些命令不必死记硬背，忘了就回来看看，温习一下，慢慢的，你也就记住了。
+
+#### Markdown中直接显示图片
+
+形式：
+```<div align="center">
+    <img src="pic/figure/截图.png" alt="图片描述" width="500" />
+</div>```
 
 #### 无序列表
 
