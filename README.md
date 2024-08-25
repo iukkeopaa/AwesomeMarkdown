@@ -76,25 +76,88 @@
 
 #### 代码块或者文本块
 形式：
->```
->我
-是
-一
-个
-文
-本
-块
+
+#### diff语法
+语法简述：
 ```
+> 输入` ```diff `之后，再输入内容即可
+> `+` 表示增加
+> `-` 表示删除
+```
+
+效果1；
+
+```diff
++ 日拱一卒无有尽，
+- 功不唐捐终入海。
+! 功不唐捐，
+# 玉汝于成。
+```
+
+效果2；
+
+```diff
+function addTwoNumbers (num1, num2) {
+-  return 1 + 2
++  return num1 + num2
+}
+```
+
+效果3：
+
+```diff
+fun main(){
++ say("")  
+return ""
+}
+
+fun main(){
+- say("")  
+return ""
+}
+```
+  
+
+
+
+
+
+
+
+
+
+#### 表情
+
+形式:
+```
+:smile:
+```
+
 效果：
-```
-我
-是
-一
-个
-文
-本
-块
-```
+:smile：
+
+拓展1：emoji表情的适当合理的使用能很好的增加可阅读性和阅读的趣味性，所以emoji表情的使用也越来越普遍，这里我简单列举几个emoji表情的网站以供参考
+
+> https://emojixd.com/
+> 
+> https://www.emojiall.com/zh-hans
+> 
+> https://openmoji.org/
+>
+> https://www.webfx.com/tools/emoji-cheat-sheet/
+
+拓展2：除了使用emoji表情之外，还有很多趣味的表情包的恰当使用同样能增加可读性和趣味性，所以这里我也简单列举几个表情包的网站
+
+> https://www.dbbqb.com/
+>
+> https://www.fabiaoqing.com/
+>
+> https://www.doutupk.com/
+>
+> https://www.doutub.com/
+
+
+
 
 
 
