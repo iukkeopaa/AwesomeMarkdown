@@ -168,7 +168,7 @@ markdown提供了`6个`不同的标题级别，这里的标题级别的不同主
 ！[wy云笔记](pic/figure/截图.png)
 
 <div align="center">
-    <img src="pic/figure/截图.png" alt="图片描述" width="500" />
+    <img src="pic/figure/截图.png" alt="图片描述" width="1000" />
 </div>
 
 
@@ -178,9 +178,11 @@ markdown提供了`6个`不同的标题级别，这里的标题级别的不同主
 
 形式：
 
-```<div align="center">
-    <img src="pic/figure/截图.png" alt="图片描述" width="500" />
-</div>```
+```
+<div align="center">
+<img src="pic/figure/截图.png" alt="图片描述" width="500" />
+</div>
+```
 
 #### 无序列表
 
