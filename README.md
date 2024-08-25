@@ -658,6 +658,7 @@ string &operator+(const string& A,const string& B) //cpp
  `linux`
 
  #### 引用
+ 引用类似我们经常遇到的`文件目录`，在`文件目录`中一层一层的打开直到找到我们所需要的内容。
 
  形式1：
  
