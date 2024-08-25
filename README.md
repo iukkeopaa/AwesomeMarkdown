@@ -846,6 +846,19 @@ return ""
 
 #### 写在后面
 
+🥳太棒了，这一路上学到的东西实在太有趣了，没想到一个简单的文档笔记工具居然能蕴含着这么多的乐趣
+
+💖总说`站在巨人的肩膀上才能看的更好`，所以这里我也给出了当初学习的时候参考的一些优秀的作品
+> https://github.com/younghz/Markdown/blob/master/README.md
+>
+> https://github.com/guodongxiaren/README/blob/master/README.md
+>
+> https://github.com/kaivin/markdown/blob/master/readme.md
+>
+💖正是在这些优秀的作者的基础之上才打开了通往新世界的大门.
+
+bye 👋🏼
+
 
 
 
