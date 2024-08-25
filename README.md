@@ -368,9 +368,9 @@ _ _ _
 > [^1]: https://svc.011.idv.tw/CodeHelper/GitHub/MarkDown/Markdown%20Syntax.pdf
 [^1]: https://svc.011.idv.tw/CodeHelper/GitHub/MarkDown/Markdown%20Syntax.pdf
 
-**贴士** 你开可以点击一下这个引用的标号，就可以跳转到文件地址(这里我将这个放在了文档的末尾)
+**贴士** 你可以点击一下这个引用的标号`[1]`，就可以跳转到文件地址(这里我将这个放在了文档的末尾)
 
-**闲聊** 这篇文献是关于markdown的使用的论文形式的表达，更加具有可信度
+**闲聊** 这篇文献是关于markdown的使用的论文形式的表达，你也可以读一读,还是能有所收获的
 #### 数学公式
 
 这里的数学公式的语法符合`latex`的数学公式的语法
