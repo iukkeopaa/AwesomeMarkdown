@@ -139,51 +139,6 @@ xxxx
 </details>
 
 
-形式2:
-
-```
-<details>
-<summary>WEB开发</summary>
-
-##### 服务器
-xxxx
-
-##### 中间件
-xxxx
-
-
-<summary>数据库</summary>
-
-##### mmysql
-
-##### mongodb
-
-##### redis
-
-</details>
-```
-
-效果:
-
-<details>
-<summary>WEB开发</summary>
-
-
-<details>
-<summary>数据库</summary>
-
-##### mmysql
-
-##### mongodb
-
-##### redis
-
-</details>
-
-
-
-
-
 #### diff语法
 语法简述：
 ```
