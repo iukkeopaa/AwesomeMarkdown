@@ -440,7 +440,7 @@ markdown中的链接主要分为**行内式**和**参考式**
 效果：
 
 |---|----|:---:|
-|1|`[![github-avatar]](/pic/photo)`|[![github-avatar]](/pic/photo)|
+|1|`[![github-avatar]](/pic/figure/oha.jepg)`|[![github-avatar]](/pic/figure/oha.jepg)|
 
 #### 表格
 
