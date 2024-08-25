@@ -403,12 +403,16 @@ markdown中的链接主要分为**行内式**和**参考式**
 
 #### 锚点
 
+语法简述：
+> 每一个打上了`#+内容`的地方都可以用锚点的方式进行跳转
+
 形式：
 ```
 |语法|效果|
 |---|---|
 |`[回到顶部](#写在前面)`|[回到顶部](#写在前面)|
 ```
+这里的`#写在前面`就对应着开头的内容
 
 效果：
 
@@ -419,26 +423,27 @@ markdown中的链接主要分为**行内式**和**参考式**
 
 #### 图片链接
 
+语法简述：
+> ![alt](URL title)
+>
+> 图片的链接比起直接的链接的不同之处就在`[]`前加上一个`!`就行
+
 形式：
 
 ```
 |---|----|:---:|
-|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
-|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
-|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
+|1|`[![github-avatar]](/pic/photo)`|[![github-avatar]](/pic/photo)|
+
 ```
 
 效果：
 
 |---|----|:---:|
-|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
-|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
-|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
-
-
-
+|1|`[![github-avatar]](/pic/photo)`|[![github-avatar]](/pic/photo)|
 
 #### 表格
+
+markdown中的表格的制作形式也是很简单，并且多样性。
 
 形式1：
 
@@ -461,36 +466,36 @@ markdown中的链接主要分为**行内式**和**参考式**
 ```
 | 表头1     | 表头2    | 表头3    |
 | :------------- | :-------------: | -------------: |
-| 表格项1      | 表格项2      | 表格项3      |
-| 给定一个参考项      | 可看出其对齐的内容     | 是否如实实现了各种对齐      |
-| 有多行表格      | 参考依据     | 一目了然      |
+| java    | juc      | jdbc |
+| go      | router     | channel    |
+| linux      | cd      | pwd      |
 ```
-
+**注意** `| :------------- | :-------------: | -------------: |`中的`：`表示对其的方式，在那边就表示向那边对齐
 效果2：
 
 | 表头1     | 表头2    | 表头3    |
 | :------------- | :-------------: | -------------: |
-| 表格项1      | 表格项2      | 表格项3      |
-| 给定一个参考项      | 可看出其对齐的内容     | 是否如实实现了各种对齐      |
-| 有多行表格      | 参考依据     | 一目了然      |
+| java    | juc      | jdbc |
+| go      | router     | channel    |
+| linux      | cd      | pwd      |
 
 形式3：
 
 ```
 | 表头1     | 表头2    | 表头3    |
 | :------------- | :-------------: | -------------: |
-| 表格项1      | 表格项2      | 表格项3      |
-| 给定一个参考项      | 可看出其**对齐**的内容     | 是否如实实现了~~各种对齐~~      |
-| 有多行表格      | _参考依据_     | 一目了然      |
+| *java* | juc  | jdbc |
+| **go**  | ~~router~~ | <del>channel</del> |
+| ***linux***  | cd | ***~~pwd~~***  |
 ```
 
 效果3：
 
 | 表头1     | 表头2    | 表头3    |
 | :------------- | :-------------: | -------------: |
-| 表格项1      | 表格项2      | 表格项3      |
-| 给定一个参考项      | 可看出其**对齐**的内容     | 是否如实实现了~~各种对齐~~      |
-| 有多行表格      | _参考依据_     | 一目了然      |
+| *java* | juc  | jdbc |
+| **go**  | ~~router~~ | <del>channel</del> |
+| ***linux***  | cd | ***~~pwd~~***  |
 
 形式4：
 
@@ -558,6 +563,9 @@ markdown中的链接主要分为**行内式**和**参考式**
 </table>
 
 #### 代码高亮
+
+语法简述：
+> 先输入```然后加上语言标识，可以是`java``c``python``c++`等主流语言
 效果：
 
 ```Java
@@ -565,12 +573,6 @@ public static void main(String[]args){} //Java
 ```
 ```c
 int main(int argc, char *argv[]) //C
-```
-```Bash
-echo "hello GitHub" #Bash
-```
-```javascript
-document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
 ```
 ```cpp
 string &operator+(const string& A,const string& B) //cpp
