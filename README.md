@@ -312,7 +312,63 @@ _ _ _
 
 |#|语法|效果|
 |---|----|-----|
-|1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
+|1|`[我的github](https://github.com/iukkeopaa/"我的github")`|[我的github](http://blog.csdn.net/guodongxiaren "我的github")|
+
+
+#### 本地资料的链接
+
+形式：
+
+```
+|语法|效果|
+|----|-----|
+|`[诗歌](/example/stroy.md)`|[诗歌](/example/story.md)|
+
+```
+
+效果：
+
+|语法|效果|
+|----|-----|
+|`[诗歌](/example/stroy.md)`|[诗歌](/example/story.md)|
+
+
+#### 锚点
+
+形式：
+```
+|语法|效果|
+|---|---|
+|`[回到顶部](#readme)`|[回到顶部](#readme)|
+```
+
+效果：
+
+|语法|效果|
+|---|---|
+|`[回到顶部](#readme)`|[回到顶部](#readme)|
+
+
+#### 图片链接
+
+形式：
+
+```
+|---|----|:---:|
+|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
+|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
+|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
+```
+
+效果：
+
+|---|----|:---:|
+|1|`[![weibo-logo]](http://weibo.com/linpiaochen)`|[![weibo-logo]](http://weibo.com/linpiaochen)|
+|2|`[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]`|[![](/img/zhihu.png "我的知乎，欢迎关注")][zhihu]|
+|3|`[![csdn-logo]][csdn]`|[![csdn-logo]][csdn]|
+
+
+
 
 #### 表格
 
