@@ -177,6 +177,7 @@ markdown提供了`6个`不同的标题级别，这里的标题级别的不同主
 #### Markdown中直接显示图片
 
 形式：
+
 ```<div align="center">
     <img src="pic/figure/截图.png" alt="图片描述" width="500" />
 </div>```
