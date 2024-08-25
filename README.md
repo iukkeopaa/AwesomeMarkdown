@@ -363,11 +363,10 @@ _ _ _
 
 效果：
 
-> 锄禾[^1]当午
+> Markdown: Syntax[^1]
 >
-> [^1]: 日
->
-[^1]: 日
+> [^1]: https://svc.011.idv.tw/CodeHelper/GitHub/MarkDown/Markdown%20Syntax.pdf
+[^1]: https://svc.011.idv.tw/CodeHelper/GitHub/MarkDown/Markdown%20Syntax.pdf
 
 #### 数学公式
 
