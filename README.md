@@ -356,9 +356,9 @@ _ _ _
 
 形式：
 ```
-> 锄禾[^1]当午
+> Markdown: Syntax[^1]
 >
-> [^1]: 日
+> [^1]: https://svc.011.idv.tw/CodeHelper/GitHub/MarkDown/Markdown%20Syntax.pdf
 ```
 
 效果：
