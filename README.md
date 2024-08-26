@@ -698,6 +698,23 @@ int main(int argc, char *argv[]) //C
 string &operator+(const string& A,const string& B) //cpp
 ```
 
+
+#### HTML元素
+
+Markdown能很好的支持HTML中的元素，一些常用的HTML元素在[前面](#强调)
+
+这里再介绍一个有趣的元素`<kbd>`
+
+形式:
+
+```
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 就能打开任务管理器 
+```
+
+效果：
+
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 就能打开任务管理器 
+
 #### 反斜杠
 
 > 相当于反转义作用。使符号成为普通符号
